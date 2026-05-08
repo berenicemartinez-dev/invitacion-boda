@@ -338,15 +338,11 @@ i:hover {
 }
 .padres{
   display: flex;
-   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 5px;
   overflow-x: auto;
   padding: 5px;
   scroll-snap-type: x mandatory;
-}
-.nombres {
-  max-width: 200px;
 }
 .nombres h3{
   margin: 5px 0;
@@ -363,7 +359,6 @@ i:hover {
   height: 140px;
   width: 2px;
   background: linear-gradient(to bottom, transparent, var(--azul-oscuro), transparent);
-  position: absolute;
   margin: 0 10px;
 /*   left: 50%;
    top: 50%; 
