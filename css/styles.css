@@ -526,6 +526,9 @@ en un slider */
    RESPONSIVE (CELULAR)
 ========================= */
 @media (max-width: 600px) {
+  .fondo {
+    background-position: center center;
+  }
 
   .loader{
     font-size: 1rem;
