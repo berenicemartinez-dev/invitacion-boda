@@ -311,14 +311,40 @@ h2{
   color: var(--dorado);
 }
 /* imagen */
-.anillos{
- width: 50%;
+.gallery{
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  gap:14px;
+
+  margin:50px auto;
+}
+
+.gallery img{
+  width:110px;
+  border-radius:12px;
+  object-fit:cover;
+
+  box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+.gallery img:nth-child(1),
+.gallery img:nth-child(3){
+  height:220px;
+  margin-top:25px;
+}
+
+.gallery img:nth-child(2){
+  height:300px;
+}
+.imgubicaacion{
+  width: 50%;
   max-width: 150px;
   margin: 50px auto 20px;
   display: block;
   opacity: 0.8;
   border-radius: 10px;
-}
+} 
 /* Estilos para los iconos  */
 i {
   color: var(--dorado); /* dorado elegante */

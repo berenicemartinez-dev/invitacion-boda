@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
   mensajeElemento.textContent = "Eres muy especial para nosotros por eso queremos que seas parte de esta gran celebracion";
   
   /* reproduccion de musica */
-  audio.volume = 0.3;
+  audio.volume = 0.1;
 
   btn.addEventListener("click", () => {
     if (audio.paused) {
