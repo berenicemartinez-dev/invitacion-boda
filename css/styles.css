@@ -216,7 +216,7 @@ main{
 h2{
   text-align: center;
   font-family: 'Playfair Display', serif;
-  margin: 30px auto;
+  margin: 35px auto 5px;
   color: var(--dorado);
   font-size: 2rem;
 }
@@ -445,7 +445,7 @@ en un slider */
 .frase{
   color: var(--azul-oscuro);
   font-size: x-large;
-  margin-top: 1rem;
+  margin-top: 10px;
 }
 
  .ceremony,
